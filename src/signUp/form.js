@@ -49,7 +49,7 @@ class SignUpForm extends Component {
 
     render() {
 
-        console.log("in the side one");
+        
         return (
             <div className="sideone">
                 <div className="Input">
@@ -70,7 +70,7 @@ class SignUpForm extends Component {
                     <Button id="signupBtn" type="submit">sign Up</Button>
                     {/* <p>Already Registered: <Link to={'/'}>Sign In</Link> </p> */}
                     </div>
-                </form>
+                  </form>
                 </div>
             </div>
         )

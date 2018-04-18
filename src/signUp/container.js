@@ -20,7 +20,7 @@ class SignUpContainer extends React.Component {
     }
 
     submitRegistration(formdata) {
-        console.log("SignupDetails", formdata);
+        console.log("SignupDetails------", formdata);
         this.props.signUpAction(formdata);
     }
 
